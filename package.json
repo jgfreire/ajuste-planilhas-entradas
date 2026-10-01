@@ -1,0 +1,15 @@
+{
+  "name": "ajuste-planilha-entradas",
+  "version": "1.0.0",
+  "description": "Remove colunas (Chave NF, Tags, Eventos) e adiciona REVENDA / USO OU CONSUMO / IMOBILIZADO em planilhas de entradas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "jszip": "^3.10.2",
+    "multer": "^2.4.0"
+  }
+}
